@@ -8,32 +8,19 @@
       <h2 class="subtitle">
         Nuxt Peliculas
       </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+      <buscadorPeliculas />
     </div>
   </div>
 </template>
 
 <script>
 import Logo from '~/components/Logo.vue'
+import buscadorPeliculas from '@/components/buscadorPeliculas.vue'
 
 export default {
   components: {
-    Logo
+    Logo,
+    buscadorPeliculas
   }
 }
 </script>
